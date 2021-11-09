@@ -51,14 +51,14 @@ public class Utils {
 
     private void returnAllEnumValues() {
         for (SignsQuantity c : SignsQuantity.values()) {
-            System.out.print("    " + c.charQuantity);
+            System.out.print("    " + c.getCharQuantity());
         }
         System.out.println();
     }
 
     private boolean isContainsEnum(int number) {
         for (SignsQuantity c : SignsQuantity.values()) {
-            if (c.charQuantity == number) {
+            if (c.getCharQuantity() == number) {
                 return true;
             }
         }

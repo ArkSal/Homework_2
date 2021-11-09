@@ -4,10 +4,13 @@ public enum SignsQuantity {
     DZIESIEC(10),
     PIETNASCIE(15);
 
-    int charQuantity;
+    private int charQuantity;
 
     SignsQuantity(int amount) {
         this.charQuantity = amount;
     }
 
+    public int getCharQuantity() {
+        return charQuantity;
+    }
 }
