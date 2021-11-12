@@ -20,7 +20,7 @@ public class Utils {
 
     private char getRandomChar() {
         Random random = new Random();
-        return (char) (random.nextInt(33, 128));
+        return (char)(random.nextInt(128));
     }
 
 

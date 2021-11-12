@@ -1,10 +1,8 @@
 public class Homework {
 
     public static void main(String[] args) {
-
         TokenGenerator token = new TokenGenerator();
         System.out.println(token.tokenGenerator());
-
     }
 }
 

@@ -1,5 +1,4 @@
 public enum SignsQuantity {
-
     PIEC(5),
     DZIESIEC(10),
     PIETNASCIE(15);
